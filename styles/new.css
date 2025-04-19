@@ -1,0 +1,113 @@
+
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+/*nav styles*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   margin: 50px 150px;
+
+}
+.btn
+{
+    
+    width: 244px;
+    height:57px ;
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+border: 1px solid #0D1321;
+opacity: 0.8;
+gap: 10px;
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 28px;
+   
+}
+
+.banner {
+    position: relative;
+    width: 100vw;     /* Full width of the screen */
+    height: 100vh;    /* Full height of the screen */
+    overflow: hidden;
+}
+
+
+.pic{
+    
+    position: absolute;
+align-items: center;
+width: 240.28px;
+height: 240px;
+left: 257.67%;
+right: -257.67%;
+top: 20px;
+bottom: 0%;
+justify-content: center;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.banner-container {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+.bg-img {
+    width: 100vw;
+    height: 100vh;
+
+    background-repeat: repeat;
+    object-fit: cover;
+    z-index: 1;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.tittle{
+    /* "In the near future, I hope to become a Developer." */
+position: static;
+width: 998px;
+height: 136px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+z-index: 2;
+font-size: 28px;
+  margin-bottom: 10px;
+  color: #080808;
+}
+.banner-tittle{
+    color: #080808;
+}
+
